@@ -69,6 +69,8 @@ function WritingPage(props: any): JSX.Element {
   const [texts, setTexts] = useState<string[]>(['', '', '', '', '']);
 
   const [currNum, setCurrNum] = useState<number>(0);
+  //깃헙올리기용
+  
   const [index, setIndex] = useState<number>(0);
   const [text, setText] = useState<string>(texts[index]);
   function addText(t: string) {
